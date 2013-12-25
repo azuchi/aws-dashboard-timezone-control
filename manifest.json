@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "AWS Service Health Dashboard timezone control extention",
+  "version": "1.0",
+  "description": "This is an advanced feature that displays by replacing timezones that you specify the time zone of the time that is displayed in the Service Health Dashboard for AWS.",
+  "browser_action": {
+    "default_icon": "haws.png"
+  },
+  "web_accessible_resources": ["jquery-2.0.3.min.map"],
+  "content_scripts": [{
+    "matches": ["http://status.aws.amazon.com/"],
+    "js": ["jquery-2.0.3.min.js", "extention.js"],
+    "run_at": "document_start"
+  }]
+}
