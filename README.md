@@ -1,4 +1,5 @@
 aws-dashboard-timezone-control
 ==============================
 
-AWSのService Health Dashboardの時刻をJSTに変換するChrome拡張。
+AWSのService Health Dashboardの時刻をブラウザのローカルタイムゾーンで表示するChrome Extensionです。
+
