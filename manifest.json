@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "AWS Service Health Dashboard timezone control extention",
+  "name": "AWS Service Health Dashboard timezone converter.",
   "version": "1.0",
   "description": "This is an extension for displaying converted to local time zone in your browser the failure time that is displayed in the AWS Service Health Dashboard.",
   "browser_action": {
