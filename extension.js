@@ -15,7 +15,7 @@ $(function(){
       date = new Date(Date.parse(time)); // Dec dd, hh:mm AM PST フォーマットの場合
     }
     var dateElements = date.toString().split(" ");
-    var converted = date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate() + " " +
+    var converted = date.getMonth() + "/" + date.getDate() + " " +
       date.getHours() + ":" + date.getMinutes() + " " + dateElements[dateElements.length - 2] + " " + dateElements[dateElements.length - 1];
     $(this).html(converted);
   });
