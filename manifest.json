@@ -11,7 +11,7 @@
   },
   "web_accessible_resources": ["jquery-2.0.3.min.map"],
   "content_scripts": [{
-    "matches": ["http://status.aws.amazon.com/"],
+    "matches": ["https://status.aws.amazon.com/"],
     "js": ["jquery-2.0.3.min.js", "extension.js"],
     "run_at": "document_start"
   }]
