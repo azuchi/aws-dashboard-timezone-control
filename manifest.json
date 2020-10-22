@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "AWS Dashboard timezone converter.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "AWS Service Health Dashboard timezone convert local timezone.",
   "background": {
     "scripts": ["background.js"]
